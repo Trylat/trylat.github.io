@@ -23,22 +23,22 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: walan.brousseau@usherbrooke.ca
-facebook_username: /
-twitter_username: /
-instagram_username: /
+facebook_username: 
+twitter_username: 
+instagram_username: 
 linkedin_username: walan-brousseau
-github_username: trylat
-youtube_channel_id: / 
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+github_username: Trylat
+youtube_channel_id:  
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
-google-analytics: /
+google-analytics: 
 
 # Disqus
-disqus-shortname: /
+disqus-shortname: 
 
 # Name of the Author
 author-name: Walan Brousseau
