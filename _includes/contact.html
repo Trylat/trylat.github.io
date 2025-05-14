@@ -8,6 +8,20 @@
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
             {% endunless %}
+            {% unless unless site.linkedin_username == %}
+            <a id="contact-button" href="https://m.me/{{site.linkedin_username}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fab fa-linkedin"></i>Add me on LinkedIn
+            </a>
+            {% endunless %}
+            {% unless unless site.site.github_username == %}
+            <a id="contact-button" href="https://m.me/{{site.github_username}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fab fa-github"></i>Follow me on GitHub
+            </a>
+            {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
